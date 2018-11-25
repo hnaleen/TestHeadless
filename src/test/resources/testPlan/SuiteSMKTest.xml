@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HelloFresh - WEB" verbose="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.qa.hellofresh.listener.TestNgListener"/>
+    </listeners>
+    <test name="Shopping Cart">
+        <classes>
+            <class name="com.qa.hellofresh.testcases.HelloFreshTest"/>
+        </classes>
+    </test>
+</suite>
